@@ -1,0 +1,1617 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #111;
+    color: white;
+}
+
+@font-face {
+    font-family: simple;
+    src: url(FONTS/Quicksand-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: rounded;
+    src: url(FONTS/Rubik-VariableFont_wght.ttf);
+}
+
+.main{
+    position: relative;
+}
+
+
+.main .nav .left{
+    position: absolute;
+    top: 28px;
+    left: 40px;
+}
+
+.main .nav .right{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.main .nav .right ul li a{
+    text-decoration: none; 
+    color: white;
+}
+
+.main .nav .right li{
+    display: inline-block;
+    margin: 0px 10px;
+    font-size: 13px;
+    font-family: simple;
+
+}
+
+.main .nav .left img{
+    width: 90px;
+}
+
+.main .nav h1{
+    position: absolute;
+    top: 38%;
+    left: 35%;
+    font-size: 60px;
+    font-family: rounded;   
+}
+
+.main .nav .anim h1{
+    font-size: 20px;
+    font-family: simple;
+    font-weight: 600;
+    position: absolute;
+    top: 300px;
+    left: 500px;
+}   
+
+.main .nav .anim h1 {
+    /* position: relative; */
+}
+
+.main .nav .anim h1 span {
+    visibility: hidden;
+    position: absolute;
+    left: 80px;     
+}
+
+.main .nav .anim h1 span:nth-child(1) {
+    animation: first 3s linear 0s infinite normal forwards;
+}
+
+.main .nav .anim h1 span:nth-child(2) {
+    animation: second 3s linear 0s infinite normal forwards;
+}
+
+.main .nav .anim h1 span:nth-child(3) {
+    animation: third 3s linear 0s infinite normal forwards;
+}
+
+@keyframes first {
+    0% {
+        visibility: hidden;
+    }
+
+    25% {
+        visibility: visible;
+    }
+
+    26% {
+        visibility: hidden;
+    }
+
+    50% {
+        visibility: hidden;
+
+    }
+
+    75% {
+        visibility: hidden;
+
+    }
+
+    100% {
+        visibility: hidden;
+
+    }
+
+}
+
+@keyframes second {
+    0% {
+        visibility: hidden;
+
+    }
+
+    25% {
+        visibility: hidden;
+
+    }
+
+    50% {
+        visibility: visible;
+
+    }
+
+    51% {
+        visibility: hidden;
+    }
+
+    75% {
+        visibility: hidden;
+
+    }
+
+    100% {
+        visibility: hidden;
+
+    }
+
+}
+
+@keyframes third {
+    0% {
+        visibility: hidden;
+
+    }
+
+    25% {
+        visibility: hidden;
+
+    }
+
+    50% {
+        visibility: hidden;
+
+    }
+
+    75% {
+        visibility: visible;
+
+    }
+
+    76% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: hidden;
+
+    }
+
+}
+
+.main .nav .social ul li{
+    list-style: none;
+    margin-top: 7px;
+}
+
+.main .nav .social{
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+    
+}
+
+.main .nav .social img{
+    width: 20px;
+    height: 20px;
+}
+
+/* first page ended */
+/* first page ended */
+/* first page ended */
+/* first page ended */
+/* first page ended */
+
+.head{
+    width: 100%;
+    height: 230px;
+    text-align: center;
+}
+
+.head h3{
+    padding-top: 50px;
+    font-weight: 500;
+    font-family: simple;
+    font-size: 15px;
+    color: #9f9f9f;
+}
+
+.head h1{
+    font-family: rounded;
+    padding-top: 12px;
+    font-size: 40px;
+}
+
+.head marquee{
+    width: 70px;
+    font-size: 25px;
+    color: #009e66;
+    font-weight: 900;
+}
+
+.pro{
+    width: 100%;
+    height: 520px;
+    position: relative;
+}
+
+.pro .left{
+    width: 45%;
+}
+
+.pro .left img{
+    width: 340px;
+    margin-left: 120px;
+    border-radius: 10px;
+    box-shadow: #009e66 3px 4px;
+}
+
+.pro .right{
+    width: 50%;
+    height: 400px;
+    position: absolute;
+    left: 45%;
+    top: 0;
+}
+
+.pro .right h2{
+    font-family: simple;
+    font-size: 23px;
+    color: #009e66;
+    margin-top: 10px;
+}
+
+.pro .right h1{
+    font-family: rounded;
+    line-height: 37px;
+    font-size: 26px;
+    margin-top: 11px;
+}
+
+.pro .right p{
+    color: #9f9f9f;
+    font-family: simple;
+    line-height: 24px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.pro .right hr{
+    background-color: transparent;
+    border: 1px solid #9f9f9f;
+    margin-top: 25px;
+    opacity: 0.2;
+}
+
+.pro .right h3{
+    font-family: simple;
+    color: #dadada;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 22px;
+}
+
+.pro .right span{
+    font-family: simple;
+    color: #9f9f9f;
+    margin-left: 8px;
+}
+
+.pro .right .end h1{
+    font-size: 13px;
+    font-family: simple;
+    color: #dadadad9;
+    position: absolute;
+    right: 120px;
+    bottom: 85px;
+}
+
+.pro .right .end span{
+    color: #009e66;
+}
+
+.pro .right .end h2{
+    font-size: 13px;
+    font-family: simple;
+    color: #dadadad9;
+    position: absolute;
+    right: 268px;
+    bottom: 57px;
+}
+
+.pro .right .end h4{
+    font-size: 13px;
+    font-family: simple;
+    color: #9f9f9f;
+    position: absolute;
+    right: 170px;
+    bottom: 57px;
+}
+
+.pro .right input{
+    padding: 10px 30px;
+    border-radius: 50px;
+    margin-top: 25px;
+    color: white;
+    background-image: linear-gradient(90deg,#009e66,#111 70%);
+    border: 1px solid #009e66;
+    background-size: 400%;
+    background-position: 100%;
+    transition: ease 1.5s;
+}
+
+.pro .right input:hover{
+    background-position: 0%;
+}
+
+.pro .right .btn ul{
+   position: absolute;
+   right: 200px;
+   bottom: 0;
+}
+
+.pro .right .btn ul li{
+    list-style: none;
+    display: inline-block; 
+    transition: ease 0.5s;
+}
+
+.pro .right .btn hr{
+    width: 70px;
+    position: absolute;
+    bottom: 13px;
+    left: 160px;
+}
+
+.pro .right .btn ul li:hover{
+    transform: scale(1.4); 
+}
+
+.head2{
+    width: 80%;
+    height: 80px;
+    display: block;
+    margin: auto;
+}
+
+.head2 p{
+    font-family: simple;
+    color: #9f9f9f;
+    font-size: 14px;
+}
+
+.head2 h2{
+    font-family: rounded;
+    font-size: 35px;
+    margin-top: 7px;
+}
+
+.head2 .one{
+    width: 100%;
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head2 .one div{
+    margin-top: 60px;
+    width: 295px;
+    height: 220px;
+    background-color: #161616;
+    box-shadow: 0 6px 16px rgba(0,0,0,.2);
+    border-bottom: 2px solid transparent;
+    transition: all .30s ease-in-out;
+    padding: 38px 42px;
+    font-size: 40px;
+    color: white;
+    font-family: simple;
+}
+
+.head2 .one div img{
+    width: 50px;
+}
+
+.head2 .one div h6{
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+.head2 .one div p{
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 10px;
+    line-height: 22px;
+}
+
+.head2 .one div:hover{
+    border-color: #009e66;
+    transform: translate(0px,-10px);
+}
+
+.head2 .two{
+    width: 100%;
+    height: 220px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head2 .two div{
+    width: 295px;
+    height: 220px;
+    background-color: #161616;
+    box-shadow: 0 6px 16px rgba(0,0,0,.2);
+    border-bottom: 2px solid transparent;
+    transition: all .30s ease-in-out;
+    padding: 38px 42px;
+    font-size: 40px;
+    color: white;
+    font-family: simple;
+}
+
+.head2 .two div img{
+    width: 45px;
+}
+
+.head2 .two div h6{
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+.head2 .two div p{
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 10px;
+    line-height: 22px;
+}
+
+.head2 .two div:hover{
+    border-color: #009e66;
+    transform: translate(0px,-10px);
+}
+
+.head2 .three{
+    height: 300px;
+    margin-top: 100px;
+}
+
+.head2 .three .comment{
+    width: 100%;
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head2 .three .comment div{
+    margin-top: 60px;
+    width: 455px;
+    height: 220px;
+    background-color: #161616;
+    padding: 38px 42px;
+    font-size: 40px;
+    color: white;
+    font-family: simple;
+    position: relative;
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0px 0px 20px #009e66;
+
+    }
+
+    25% {
+        box-shadow: 0px 0px 10px #009e66;
+
+    }
+
+    50% {
+        box-shadow: 0px 0px 5px #009e66;
+
+    }
+
+    75% {
+        box-shadow: 0px 0px 10px #009e66;
+
+    }
+
+    100% {
+        box-shadow: 0px 0px 20px #009e66;
+    }
+
+}
+
+.head2 .three .comment div:hover{
+    box-shadow: 0px 0px 20px #009e66;
+    animation: glow 2s linear 0s infinite alternate forwards;
+}
+
+.head2 .three .comment div img{
+    width: 50px;
+    border-radius: 50px;
+}
+
+.head2 .three .comment div p{
+    margin-top: 15px;
+}
+
+.head2 .three .comment div .detail{
+    width: 150px;
+    height: 20px;
+    font-size: 15px;
+    position: absolute;
+    top: -60px;
+    left: 65px;
+    background-color: transparent;
+    box-shadow: 0px 0px 0px rgba(0,0,0,.1);
+}
+
+.head2 .three .comment div .detail span{
+    color: #9f9f9f;
+    font-size: small;
+}
+
+.head2 .four{
+    height: 500px;
+    margin-top: 100px;
+}
+
+.head2 .four .fb{
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head2 .four .fb div{
+    width: 295px;
+    height: 470px;
+    background-color: #161616;
+    box-shadow:0 0 20px 0 rgba(0,0,0,.05);
+    padding: 50px 0;
+    text-align: center;
+    font-family: simple;
+    transition: ease .5s;
+}
+
+.head2 .four .fb div:hover{
+    transform: scale(1.13);
+}
+
+.head2 .four .fb div img{
+    width: 45px;
+    margin-bottom: 20px;
+}
+
+.head2 .four .fb div h3{
+    font-size: 27px;
+}
+
+.head2 .four .fb div h2{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.head2 .four .fb div ul{
+    list-style: none;
+    margin: 30px;
+    font-size: 13px;
+    color: #9f9f9f;
+}
+
+.head2 .four .fb div ul li{
+    margin-top: 20px;
+}
+
+.head2 .four .fb div input{
+    padding: 10px 30px;
+    color: white;
+    border-radius: 50px;
+    background-image: linear-gradient(90deg,#009e66,#111 70%);
+    border: 1px solid #009e66;
+    background-size: 400%;
+    background-position: 100%;
+    transition: ease 1.5s;
+}
+
+.head2 .four .fb div input:hover{
+    background-position: 0%;
+}
+
+/* page 2 completed */
+/* page 2 completed */
+/* page 2 completed */
+/* page 2 completed */
+/* page 2 completed */
+
+.bio{
+    width: 80%;
+    height: 500px;
+    display: block;
+    margin: auto;   
+    font-family: simple;
+}
+
+.bio .left{
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+
+.bio .right{
+    width: 50%;
+    height: 500px;
+    float: right;
+}
+
+.bio .left .flex{
+    width: 90%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.bio .left .flex div{
+    height: 33%;
+    padding: 32px 48px;
+    background-image: linear-gradient(90deg,#009e6798,#161616 70%);
+    background-size: 300%;
+    background-position: 100%;
+    border-bottom: 1px solid #313131;
+    border-left: 2px solid #009e66;
+    transition: ease 1s;
+}
+
+.bio .left .flex div:hover{
+    background-position: 60%;
+}
+
+
+.bio .right .flex{
+    width: 90%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.bio .right .flex div{
+    height: 33%;
+    padding: 32px 48px;
+    background-image: linear-gradient(90deg,#009e6798,#161616 70%);
+    background-size: 300%;
+    background-position: 100%;
+    border-bottom: 1px solid #313131;
+    border-left: 2px solid #009e66;
+    transition: ease 1.5s;
+}
+
+.bio .right .flex div:hover{
+    background-position: 60%;
+}
+
+.bio .left .flex div h2{
+    font-size: 17px;
+    margin-bottom: 6px;
+}
+
+.bio .left .flex div span{
+    font-size: 13px;
+    font-weight: 500;
+    color: #9f9f9f;
+}
+
+.bio .left .flex div p{
+    font-size: 13px;
+    color: #9f9f9f;
+    margin-top: 13px;
+    line-height: 23px;
+}
+
+.bio .right .flex div h2{
+    font-size: 17px;
+    margin-bottom: 6px;
+}
+
+.bio .right .flex div span{
+    font-size: 13px;
+    font-weight: 500;
+    color: #9f9f9f;
+}
+
+.bio .right .flex div p{
+    font-size: 13px;
+    color: #9f9f9f;
+    margin-top: 13px;
+    line-height: 23px;
+}
+
+.load{
+    width: 80%;
+    height: 300px;
+    display: block;
+    margin: auto;
+    /* background-color: #009e66; */
+    margin-top: 140px;
+    font-family: simple;
+}
+
+.load p{
+    font-size: 15px;
+    color: #9f9f9f;
+}
+
+.load h1{
+    font-weight: 900;
+    margin-top: 10px;
+}
+
+.load .left{
+    width: 47%;
+    height: 300px;
+    /* background-color: #dadada; */
+    float: left;
+    margin-top: 30px;
+    color: #9f9f9f;
+    position: relative;
+}
+
+.load .left .one h3{
+    font-size: 15px;
+}
+
+.load .left .one span{
+    position: absolute;
+    top: 0;
+    right: 25px;
+}
+
+.load .left .one .bar{
+    width: 100%;
+    height: 9px;
+    background-color: #2f2f2f;
+    border-radius: 1px;
+    margin-top: 8px;
+}
+
+.load .left .one .bar .inbar{
+    width: 95%;
+    height: 9px;
+    background-color: #009e66;
+}
+
+.load .left .two{
+    margin-top: 30px;
+}
+
+.load .left .two h3{
+    font-size: 15px;
+}
+
+.load .left .two span{
+    position: absolute;
+    top: 67px;
+    left: 73%;
+}
+
+.load .left .two .bar2{
+    width: 100%;
+    height: 9px;
+    background-color: #2f2f2f;
+    border-radius: 1px;
+    margin-top: 8px ;
+}
+
+.load .left .two .bar2 .inbar2{
+    width: 80%;
+    height: 9px;
+    background-color: #009e66;
+}
+
+.load .left .three{
+    margin-top: 30px;
+}
+
+.load .left .three h3{
+    font-size: 15px;
+}
+
+.load .left .three span{
+    position: absolute;
+    top: 133px;
+    left: 83%;
+}
+
+.load .left .three .bar3{
+    width: 100%;
+    height: 9px;
+    background-color: #2f2f2f;
+    border-radius: 1px;
+    margin-top: 8px ;
+}
+
+.load .left .three .bar3 .inbar3{
+    width: 90%;
+    height: 9px;
+    background-color: #009e66;
+}
+
+.load .right{
+    width: 47%;
+    height: 300px;
+    /* background-color: #dadada; */
+    float: right;
+    margin-top: 30px;
+    color: #9f9f9f;
+    position: relative;
+}
+
+.load .right .one h3{
+    font-size: 15px;
+}
+
+.load .right .one span{
+    position: absolute;
+    top: 0;
+    right: 45px;
+}
+
+.load .right .one .bar{
+    width: 100%;
+    height: 9px;
+    background-color: #2f2f2f;
+    border-radius: 1px;
+    margin-top: 8px;
+}
+
+.load .right .one .bar .inbar{
+    width: 90%;
+    height: 9px;
+    background-color: #009e66;
+}
+
+.load .right .two{
+    margin-top: 30px;
+}
+
+.load .right .two h3{
+    font-size: 15px;
+}
+
+.load .right .two span{
+    position: absolute;
+    top: 67px;
+    left: 73%;
+}
+
+.load .right .two .bar2{
+    width: 100%;
+    height: 9px;
+    background-color: #2f2f2f;
+    border-radius: 1px;
+    margin-top: 8px ;
+}
+
+.load .right .two .bar2 .inbar2{
+    width: 80%;
+    height: 9px;
+    background-color: #009e66;
+}
+
+.load .right .three{
+    margin-top: 30px;
+}
+
+.load .right .three h3{
+    font-size: 15px;
+}
+
+.load .right .three span{
+    position: absolute;
+    top: 133px;
+    left: 83%;
+}
+
+.load .right .three .bar3{
+    width: 100%;
+    height: 9px;
+    background-color: #2f2f2f;
+    border-radius: 1px;
+    margin-top: 8px ;
+}
+
+.load .right .three .bar3 .inbar3{
+    width: 90%;
+    height: 9px;
+    background-color: #009e66;
+}
+
+.office{
+    width: 80%;
+    height: 400px;
+    /* background-color: #009e66; */
+    display: block;
+    margin: auto;
+    font-family: rounded;
+    display: flex;
+}
+
+.office .left{
+    width: 50%;
+    height: 400px;
+    /* background-color: #9f9f9f; */
+    margin-top: 50px;
+}
+
+.office .left h2{
+    font-size: 27px;
+}
+
+.office .left p{
+    color: #9f9f9f;
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.office .right{
+    width: 55%;
+    height: 350px;
+    background-color: #009e66;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.office .right img{
+    width: 650px;
+    height: 350px;
+    border-radius: 10px;
+    transition: ease 1s;
+}
+
+.office .right img:hover{
+    transform: scale(1.4);
+}
+
+/* page 3 completed */
+/* page 3 completed */
+/* page 3 completed */
+/* page 3 completed */
+/* page 3 completed */
+/* page 3 completed */
+/* page 3 completed */
+
+.gallery{
+    width: 80%;
+    height: 500px;
+    display: block;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery div{
+    background-color: black;
+    width: 280px;
+    height: 300px;
+    margin: 15px;
+}
+
+.gallery .one{
+    background-image: url(image/item-1.jpg);
+    background-size: cover;
+    transition: ease .5s;
+}
+
+.gallery .one:hover{
+    transform: scale(1.13);
+}
+
+.gallery .one .overlay{
+    background-color: rgba(0, 0, 0, 0.763);
+    margin: 0px;
+    text-align: center;
+    font-family: simple;
+    visibility: hidden;
+}
+
+.gallery .one .overlay h4{
+    padding-top: 120px;
+    font-weight: 500;
+}
+
+.gallery .one .overlay span{
+    font-size: 13px;
+    color: #009e66;
+}
+
+.gallery .two .overlay2{
+    background-color: rgba(0, 0, 0, 0.763);
+    margin: 0px;
+    text-align: center;
+    font-family: simple;
+    visibility: hidden;
+ } 
+
+ .gallery .two .overlay2 h4{
+    padding-top: 120px;
+    font-weight: 500;
+}
+
+.gallery .two .overlay2 span{
+    font-size: 13px;
+    color: #009e66;
+}
+
+.gallery .three .overlay3{
+    background-color: rgba(0, 0, 0, 0.763);
+    margin: 0px;
+    text-align: center;
+    font-family: simple;
+    visibility: hidden;
+ } 
+
+ .gallery .three .overlay3 h4{
+    padding-top: 120px;
+    font-weight: 500;
+}
+
+.gallery .three .overlay3 span{
+    font-size: 13px;
+    color: #009e66;
+}
+
+.gallery .four .overlay4{
+    background-color: rgba(0, 0, 0, 0.763);
+    margin: 0px;
+    text-align: center;
+    font-family: simple;
+    visibility: hidden;
+ } 
+
+ .gallery .four .overlay4 h4{
+    padding-top: 120px;
+    font-weight: 500;
+}
+
+.gallery .four .overlay4 span{
+    font-size: 13px;
+    color: #009e66;
+}
+
+.gallery .five .overlay5{
+    background-color: rgba(0, 0, 0, 0.763);
+    margin: 0px;
+    text-align: center;
+    font-family: simple;
+    visibility: hidden;
+ } 
+
+ .gallery .five .overlay5 h4{
+    padding-top: 120px;
+    font-weight: 500;
+}
+
+.gallery .five .overlay5 span{
+    font-size: 13px;
+    color: #009e66;
+}
+
+.gallery .six .overlay6{
+    background-color: rgba(0, 0, 0, 0.763);
+    margin: 0px;
+    text-align: center;
+    font-family: simple;
+    visibility: hidden;
+ } 
+
+.gallery .six .overlay6 h4{
+    padding-top: 120px;
+    font-weight: 500;
+}
+
+.gallery .six .overlay6 span{
+    font-size: 13px;
+    color: #009e66;
+}
+
+
+.gallery .two{
+    background-image: url(image/item-2.jpg);
+    background-size: cover;
+    transition: ease .5s;
+}
+
+.gallery .two:hover{
+    transform: scale(1.13);
+}
+
+.gallery .three{
+    background-image: url(image/item-3.jpg);
+    background-size: cover;
+    transition: ease .5s;
+}
+
+.gallery .three:hover{
+    transform: scale(1.13);
+}
+
+.gallery .four{
+    background-image: url(image/item-4.jpg);
+    background-size: cover;
+    transition: ease .5s;
+}
+
+.gallery .four:hover{
+    transform: scale(1.13);
+}
+
+.gallery .five{
+    background-image: url(image/item-5.jpg);
+    background-size: cover;
+    transition: ease .5s;
+}
+
+.gallery .five:hover{
+    transform: scale(1.13);
+}
+
+.gallery .six{
+    background-image: url(image/item-6.jpg);
+    background-size: cover;
+    transition: ease .5s;
+}
+
+.gallery .six:hover{
+    transform: scale(1.13);
+}
+
+.gallery .one:hover .overlay {
+    visibility: visible;
+}
+
+.gallery .two:hover .overlay2 {
+    visibility: visible;
+}
+
+.gallery .three:hover .overlay3 {
+    visibility: visible;
+}
+
+.gallery .four:hover .overlay4 {
+    visibility: visible;
+}
+
+.gallery .five:hover .overlay5 {
+    visibility: visible;
+}
+
+.gallery .six:hover .overlay6 {
+    visibility: visible;
+}
+
+/* page 3 completed */
+/* page 3 completed */
+/* page 3 completed */
+/* page 3 completed */
+/* page 3 completed */
+/* page 3 completed */
+
+.blog{
+    width: 85%;
+    height: 700px;
+    display: block;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: simple;
+}
+
+.blog div{
+    width: 300px;
+    height: 300px;
+    margin: 12px;
+}
+
+.blog .one .im{
+    margin: 0;
+    height: 190px;
+    background-color: aqua;
+    overflow: hidden;
+}
+
+.blog .one .im img{
+    width: 300px;
+    height: 190px;
+    transition: ease 1s;
+}
+
+.blog .one h3{
+    font-size: 16px;
+    margin-top: 9px;
+}
+
+.blog .one p{
+    font-size: 12px;
+    font-weight: 600;
+    color: #9f9f9f;
+    margin-top: 9px;
+    line-height: 18px;
+}
+
+.blog .one .im span{
+    position: absolute;
+    left: 112px;
+    bottom: 139px;
+    background-color: #009e66;
+    padding: 3px 9px;
+    font-size: 12px;
+}
+
+.blog .one .im img:hover{
+    transform: scale(1.5);
+}
+
+
+.blog .two .im2{
+    margin: 0;
+    height: 190px;
+    background-color: aqua;
+    overflow: hidden;
+}
+
+.blog .two .im2 img{
+    width: 300px;
+    height: 190px;
+    transition: ease 1s;
+}
+
+.blog .two h3{
+    font-size: 16px;
+    margin-top: 9px;
+}
+
+.blog .two p{
+    font-size: 12px;
+    font-weight: 600;
+    color: #9f9f9f;
+    margin-top: 9px;
+    line-height: 18px;
+}
+
+.blog .two .im2 span{
+    position: absolute;
+    right: 56.8%;
+    bottom: 139px;
+    background-color: #009e66;
+    padding: 3px 9px;
+    font-size: 12px;
+}
+
+.blog .two .im2 img:hover{
+    transform: scale(1.5);
+}
+
+
+.blog .th .im3{
+    margin: 0;
+    height: 190px;
+    background-color: aqua;
+    overflow: hidden;
+}
+
+.blog .th .im3 img{
+    width: 300px;
+    height: 190px;
+    transition: ease 1s;
+}
+
+.blog .th h3{
+    font-size: 16px;
+    margin-top: 9px;
+}
+
+.blog .th p{
+    font-size: 12px;
+    font-weight: 600;
+    color: #9f9f9f;
+    margin-top: 9px;
+    line-height: 18px;
+}
+
+.blog .th .im3 span{
+    position: absolute;
+    right: 29.7%;
+    bottom: 139px;
+    background-color: #009e66;
+    padding: 3px 9px;
+    font-size: 12px;
+}
+
+.blog .th .im3 img:hover{
+    transform: scale(1.5);
+}
+
+
+.blog .fr .im4{
+    margin: 0;
+    height: 190px;
+    background-color: aqua;
+    overflow: hidden;
+}
+
+.blog .fr .im4 img{
+    width: 300px;
+    height: 190px;
+    transition: ease 1s;
+}
+
+.blog .fr h3{
+    font-size: 16px;
+    margin-top: 9px;
+}
+
+.blog .fr p{
+    font-size: 12px;
+    font-weight: 600;
+    color: #9f9f9f;
+    margin-top: 9px;
+    line-height: 18px;
+}
+
+.blog .fr .im4 span{
+    position: absolute;
+    left: 9.5%;
+    bottom: -37%;
+    background-color: #009e66;
+    padding: 3px 9px;
+    font-size: 12px;
+}
+
+.blog .fr .im4 img:hover{
+    transform: scale(1.5);
+}
+
+
+
+.blog .five .im5{
+    margin: 0;
+    height: 190px;
+    background-color: aqua;
+    overflow: hidden;
+}
+
+.blog .five .im5 img{
+    width: 300px;
+    height: 190px;
+    transition: ease 1s;
+}
+
+.blog .five h3{
+    font-size: 16px;
+    margin-top: 9px;
+}
+
+.blog .five p{
+    font-size: 12px;
+    font-weight: 600;
+    color: #9f9f9f;
+    margin-top: 9px;
+    line-height: 18px;
+}
+
+.blog .five .im5 span{
+    position: absolute;
+    left: 37.2%;
+    bottom: -37%;
+    background-color: #009e66;
+    padding: 3px 9px;
+    font-size: 12px;
+}
+
+.blog .five .im5 img:hover{
+    transform: scale(1.5);
+}
+
+
+.blog .six .im6{
+    margin: 0;
+    height: 190px;
+    background-color: aqua;
+    overflow: hidden;
+}
+
+.blog .six .im6 img{
+    width: 300px;
+    height: 190px;
+    transition: ease 1s;
+}
+
+.blog .six h3{
+    font-size: 16px;
+    margin-top: 9px;
+}
+
+.blog .six p{
+    font-size: 12px;
+    font-weight: 600;
+    color: #9f9f9f;
+    margin-top: 9px;
+    line-height: 18px;
+}
+
+.blog .six .im6 span{
+    position: absolute;
+    right: 29.8%;
+    bottom: -37%;
+    background-color: #009e66;
+    padding: 3px 9px;
+    font-size: 12px;
+}
+
+.blog .six .im6 img:hover{
+    transform: scale(1.5);
+}
+/* page 4 completed */
+/* page 4 completed */
+/* page 4 completed */
+/* page 4 completed */
+/* page 4 completed */
+/* page 4 completed */
+/* page 4 completed */
+/* page 4 completed */
+
+
+.cmain{
+    width: 80%;
+    height: 400px;
+    display: block;
+    margin: auto;
+    display: flex;
+    font-family: simple;
+}
+
+.cmain .left{
+    width: 58%;
+    height: 400px;
+    /* background-color: #9f9f9f; */
+}
+
+.cmain .left .one{
+    width: 100%;
+    height: 33px;
+    margin-top: 20px;
+}
+
+.cmain .left .one input{
+    width: 250px;
+    height: 33px;
+    padding-left: 10px;
+    background-color: #161616;
+    border: 1px solid #161616;
+    border-radius: 2px;
+    color: #777;
+    margin-right: 15px;
+}
+
+.cmain .left .two input{
+    width: 95.5%;
+    height: 33px;
+    padding-left: 10px;
+    background-color: #161616;
+    border: 1px solid #161616;
+    border-radius: 2px;
+    color: #777;
+    margin-top: 20px;
+}
+
+.cmain .left .th input{
+    width: 95.5%;
+    height: 120px;
+    padding-left: 10px;
+    padding-bottom: 90px;
+    background-color: #161616;
+    border: 1px solid #161616;
+    border-radius: 2px;
+    color: #777;
+    margin-top: 20px;
+}
+
+.cmain .left .btn input{
+    margin-top: 25px;
+    padding: 9px 23px;
+    border-radius: 50px;
+    border: 1px solid #009e66;
+    color: white;
+    font-size: 12px;
+    background-image: linear-gradient(90deg,#009e66,#111 70%);
+    background-size: 400%;
+    background-position: 100%;
+    transition: ease 1.5s;
+}
+
+.cmain .left .btn input:hover{
+    background-position: 0;
+}
+
+.cmain .right{
+    width: 42%;
+    height: 400px;
+}
+
+.cmain .right h2{
+    font-size: 20px;
+    margin-top: 6px;
+}
+
+.cmain .right p{
+    font-size: 13px;
+    line-height: 24px;
+    color: #9f9f9f;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.cmain .right li{
+    list-style: none;
+    margin: 25px;
+}
+
+.cmain .right li img{
+    width: 30px;
+}
+
+.cmain .right .disc{
+    width: 300px;
+    height: 215px;
+    /* background-color: #009e66; */
+    position: absolute;
+    top: 2765px;
+    right: 280px;
+    border-left: 1.5px solid #313131;
+}
+
+.cmain .right .disc .one{
+    margin-left: 20px;
+}
+
+.cmain .right .disc h4{    
+    font-size: 13px;
+    font-weight: 900;
+}
+
+.cmain .right .disc span{
+    font-size: 12px;
+    color: #9f9f9f;
+    font-weight: 500;
+}
+
+.cmain .right .disc .two{
+    margin: 24px 20px;
+}
+
+.cmain .right .disc .th{
+    margin: 24px 20px;
+}
+
+.cmain .right .disc .fr{
+    margin: 24px 20px;
+}
